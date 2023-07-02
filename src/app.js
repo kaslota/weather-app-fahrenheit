@@ -70,14 +70,16 @@ function classDescription() {
   let descriptionElement = document.querySelector("#description");
   if (descriptionElement.innerHTML === "clear sky") {
     descriptionElement.classList.add("clear-sky");
-    descriptionElement.classList.remove("haze");
+    descriptionElement.classList.remove("haze", "fog");
   } else if (descriptionElement.innerHTML === "haze") {
     descriptionElement.classList.add("haze");
-     descriptionElement.classList.remove("clear-sky");
+    descriptionElement.classList.remove("clear-sky", "fog"); 
+  } else if (descriptionElement.innerHTML === "fog") {
+    descriptionElement.classList.add("fog");
+    descriptionElement.classList.remove("clear-sky", "haze");
   } else {
     descriptionElement.classList.add("description-all");
-    descriptionElement.classList.remove("clear-sky");
-     descriptionElement.classList.remove("haze");
+    descriptionElement.classList.remove("clear-sky", "haze", "fog");
   }
 }
 

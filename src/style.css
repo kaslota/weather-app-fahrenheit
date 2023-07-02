@@ -7,7 +7,6 @@ body {
   margin: 60px auto;
   border-radius: 10px;
   max-width: 805px;
- 
 }
 .search-form {
   padding: 9px;
@@ -46,6 +45,9 @@ body {
 .haze {
   right: -50px;
 }
+.fog {
+  right: -58px;
+}
 .tem-info {
   text-align: center;
   border: 3px solid #5a6275;
@@ -73,7 +75,7 @@ body {
   position: relative;
   font-size: 18px;
   top: -23px;
-  right: -6px;
+  right: -7px;
 }
 .max-min-tem {
   font-size: 20px;
@@ -115,8 +117,8 @@ body {
 }
 .forecast-icon {
   height: 75px;
-    width: 70px;
-    margin: -21px 0px -10px;
+  width: 70px;
+  margin: -21px 0px -10px;
 }
 .forecast-max-min-tem {
   font-size: 15px;
