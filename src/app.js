@@ -1,4 +1,4 @@
-//
+// Day and night mood
 function showDayMood() {
   let mood = document.querySelector("#body-mood");
   mood.classList.add("day-body");
@@ -8,12 +8,13 @@ let dayBtn = document.querySelector("#day-btn");
 dayBtn.addEventListener("click", showDayMood);
 
 function showNightMood() {
-    let mood = document.querySelector("#body-mood");
+  let mood = document.querySelector("#body-mood");
   mood.classList.add("night-body");
   mood.classList.remove("day-body");
 }
 let nightBtn = document.querySelector("#night-btn");
 nightBtn.addEventListener("click", showNightMood);
+
 // Show current time and day
 let date = new Date();
 let hours = date.getHours();
