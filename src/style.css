@@ -1,0 +1,134 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #5a6275;
+}
+.weather-app {
+  padding: 30px 62px 30px 50px;
+  margin: 60px auto;
+  border-radius: 10px;
+  max-width: 805px;
+ 
+}
+.search-form {
+  padding: 9px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.search-btn,
+.current-btm {
+  padding: 9px 18px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.current-btm {
+  padding: 10px 27px;
+  background-color: #1cc24b;
+  border: 1px #1cc24b;
+}
+:hover.current-btm {
+  background-color: #0ca75e;
+}
+.weather-icon {
+  height: 266px;
+  width: 265px;
+  margin: -4px -50px -42px;
+}
+.description-all {
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  top: -4px;
+  text-transform: capitalize;
+}
+.clear-sky {
+  right: -25px;
+}
+.haze {
+  right: -50px;
+}
+.tem-info {
+  text-align: center;
+  border: 3px solid #5a6275;
+  width: 185px;
+  height: 178px;
+  border-radius: 50%;
+  margin: -198px 251px;
+}
+
+.tem-info .active {
+  color: #5a6275;
+  cursor: default;
+}
+
+.tem-info .active:hover {
+  text-decoration: none;
+}
+.tem {
+  font-size: 78px;
+  position: relative;
+  top: 19px;
+  right: -10px;
+}
+.degree {
+  position: relative;
+  font-size: 18px;
+  top: -23px;
+  right: -8px;
+}
+.max-min-tem {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+}
+.etc-info {
+  position: relative;
+  top: 12px;
+  right: -528px;
+}
+.city-name {
+  font-weight: bold;
+  font-size: 47px;
+  text-align: center;
+  position: relative;
+  right: 260px;
+  text-transform: capitalize;
+}
+.current-time {
+  font-size: 25px;
+  margin: 19px 0px;
+  position: relative;
+  right: 1px;
+}
+.etc {
+  font-size: 22px;
+}
+.forecast-weather {
+  text-align: center;
+  border: 3px solid #5a6275;
+  width: 96px;
+  height: 92px;
+  border-radius: 50%;
+  margin: 60px 11px 0px;
+}
+.forecast-day {
+  font-size: 18px;
+}
+.forecast-icon {
+  height: 75px;
+    width: 70px;
+    margin: -21px 0px -10px;
+}
+.forecast-max-min-tem {
+  font-size: 15px;
+  margin: -9px 0px 0px 2px;
+}
+.openCode {
+  margin: -46px 403px;
+}
+.linkCode {
+  text-decoration: none;
+  color: #0b5ed7;
+}
+:hover.linkCode {
+  text-decoration: underline;
+}
