@@ -11,9 +11,7 @@
 }
 .day-night-button {
   border-radius: 15px;
-  background: #fff;
-  border: 1px solid gray;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  background: #fff;;
   padding: 8px 10px;
   position: relative;
   right: -85pc;
@@ -151,8 +149,9 @@
   margin: -9px 0px 0px 2px;
 }
 .openCode {
-  margin: -46px 403px;
+  margin: -46px 460px;
   color: #fff;
+   font-weight:bolder;
 }
 .linkCode {
   text-decoration: none;
