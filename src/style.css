@@ -1,12 +1,35 @@
-body {
+.day-body {
   font-family: "Roboto", sans-serif;
   color: #5a6275;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/834/original/pexels-oleksandr-pidvalnyi-2787267_%283%29.jpg?1688310701);
+}
+.night-body {
+  font-family: "Roboto", sans-serif;
+  color: #5a6275;
+  background-position: -145px -20px;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/865/original/maksym-diachenko-xkfWHbjlKhI-unsplash.jpg?1688327859);
+}
+.day-night-button {
+  border-radius: 15px;
+  background: #fff;
+  border: 1px solid gray;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  padding: 8px 10px;
+  position: relative;
+  right: -85pc;
+  top: 2pc;
+  transition: all 200ms ease;
+}
+.day-night-button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
 }
 .weather-app {
   padding: 30px 62px 30px 50px;
   margin: 60px auto;
   border-radius: 10px;
   max-width: 805px;
+  background: #fff;
 }
 .search-form {
   padding: 9px;
@@ -49,7 +72,7 @@ body {
   right: -58px;
 }
 .mist {
-right: -55px;
+  right: -55px;
 }
 .tem-info {
   text-align: center;
@@ -129,10 +152,12 @@ right: -55px;
 }
 .openCode {
   margin: -46px 403px;
+  color: #fff;
 }
 .linkCode {
   text-decoration: none;
-  color: #0b5ed7;
+  color: #000;
+  font-weight:bolder;
 }
 :hover.linkCode {
   text-decoration: underline;
