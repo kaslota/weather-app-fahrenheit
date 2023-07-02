@@ -48,6 +48,9 @@ body {
 .fog {
   right: -58px;
 }
+.mist {
+right: -55px;
+}
 .tem-info {
   text-align: center;
   border: 3px solid #5a6275;
