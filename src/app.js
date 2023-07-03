@@ -87,19 +87,43 @@ function classDescription() {
   let descriptionElement = document.querySelector("#description");
   if (descriptionElement.innerHTML === "clear sky") {
     descriptionElement.classList.add("clear-sky");
-    descriptionElement.classList.remove("haze", "fog", "mist");
+    descriptionElement.classList.remove("haze", "fog", "mist", "light-rain");
   } else if (descriptionElement.innerHTML === "haze") {
     descriptionElement.classList.add("haze");
-    descriptionElement.classList.remove("clear-sky", "fog", "mist");
+    descriptionElement.classList.remove(
+      "clear-sky",
+      "fog",
+      "mist",
+      "light-rain"
+    );
   } else if (descriptionElement.innerHTML === "mist") {
     descriptionElement.classList.add("mist");
-    descriptionElement.classList.remove("clear-sky", "fog", "haze");
+    descriptionElement.classList.remove(
+      "clear-sky",
+      "fog",
+      "haze",
+      "light-rain"
+    );
   } else if (descriptionElement.innerHTML === "fog") {
     descriptionElement.classList.add("fog");
-    descriptionElement.classList.remove("clear-sky", "haze", "mist");
+    descriptionElement.classList.remove(
+      "clear-sky",
+      "haze",
+      "mist",
+      "light-rain"
+    );
+  } else if (descriptionElement.innerHTML === "light rain") {
+    descriptionElement.classList.add("light-rain", "description-all");
+    descriptionElement.classList.remove("clear-sky", "haze", "mist", "fog");
   } else {
     descriptionElement.classList.add("description-all");
-    descriptionElement.classList.remove("clear-sky", "haze", "fog", "mist");
+    descriptionElement.classList.remove(
+      "clear-sky",
+      "haze",
+      "fog",
+      "mist",
+      "light-rain"
+    );
   }
 }
 
