@@ -1,7 +1,8 @@
 .day-body {
   font-family: "Roboto", sans-serif;
   color: #5a6275;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/834/original/pexels-oleksandr-pidvalnyi-2787267_%283%29.jpg?1688310701);
+  background-position: -132px -231px;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/987/original/pexels-oleksandr-pidvalnyi-2787267_%284%29.jpg?1688385422);
 }
 .night-body {
   font-family: "Roboto", sans-serif;
@@ -149,7 +150,9 @@
   margin: -9px 0px 0px 2px;
 }
 .openCode {
-  margin: -46px 460px;
+   position: relative;
+  top: -46px;
+  right: -470px;
   color: #fff;
    font-weight:bolder;
 }
