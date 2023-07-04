@@ -86,7 +86,7 @@ function getForecast(coordinates) {
 function classDescription() {
   let descriptionElement = document.querySelector("#description");
   if (descriptionElement.innerHTML === "clear sky") {
-    descriptionElement.classList.add("clear-sky");
+    descriptionElement.classList.add("clear-sky", "description-all");
     descriptionElement.classList.remove("haze", "fog", "mist", "light-rain");
   } else if (descriptionElement.innerHTML === "haze") {
     descriptionElement.classList.add("haze");
@@ -97,7 +97,7 @@ function classDescription() {
       "light-rain"
     );
   } else if (descriptionElement.innerHTML === "mist") {
-    descriptionElement.classList.add("mist");
+    descriptionElement.classList.add("mist", "description-all");
     descriptionElement.classList.remove(
       "clear-sky",
       "fog",
@@ -105,7 +105,7 @@ function classDescription() {
       "light-rain"
     );
   } else if (descriptionElement.innerHTML === "fog") {
-    descriptionElement.classList.add("fog");
+    descriptionElement.classList.add("fog", "description-all");
     descriptionElement.classList.remove(
       "clear-sky",
       "haze",
