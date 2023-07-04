@@ -64,8 +64,8 @@ function displayForecast(response) {
                 forecastDay.weather[0].icon
               }@2x.png" alt="icon">
               <div class="forecast-max-min-tem">
-                 ${Math.round(forecastDay.temp.min)} / ${Math.round(
-          forecastDay.temp.max
+              ${Math.round(forecastDay.temp.max)} / ${Math.round(
+          forecastDay.temp.min
         )}
               </div>
             </div>
@@ -155,9 +155,7 @@ function showCityData(response) {
   icon.setAttribute("alt", `${response.data.weather[0].description}`);
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  document.querySelector("#wind").innerHTML = Math.round(
-    response.data.wind.speed
-  );
+  document.querySelector("#wind").innerHTML = response.data.wind.speed;
 
   getForecast(response.data.coord);
 }
